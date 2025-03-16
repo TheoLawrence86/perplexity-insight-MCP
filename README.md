@@ -112,16 +112,16 @@ Here's an example configuration for the `mcp_config.json` file:
 "perplexity-ask": {
   "command": "node",
   "args": [
-    "/path/to/perplexity-insight/dist/index.js"
+    "/path/to/perplexity-insight-MCP/dist/index.js"
   ],
-  "cwd": "/path/to/perplexity-insight",
+  "cwd": "/path/to/perplexity-insight-MCP",
   "env": {
     "PERPLEXITY_API_KEY": "pplx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   }
 }
 ```
 
-Replace `/path/to/perplexity-insight` with the actual path to your installation directory and use your actual Perplexity API key.
+Replace `/path/to/perplexity-insight-MCP` with the actual path to your installation directory and use your actual Perplexity API key.
 
 ### Using Perplexity in Windsurf
 
