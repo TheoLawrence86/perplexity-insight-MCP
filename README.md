@@ -104,6 +104,25 @@ The server follows the MCP specification for tool responses:
 
 5. Enable the server and restart Windsurf if necessary
 
+### Example Configuration
+
+Here's an example configuration for the `mcp_config.json` file:
+
+```json
+"perplexity-ask": {
+  "command": "node",
+  "args": [
+    "/path/to/perplexity-insight/dist/index.js"
+  ],
+  "cwd": "/path/to/perplexity-insight",
+  "env": {
+    "PERPLEXITY_API_KEY": "pplx-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  }
+}
+```
+
+Replace `/path/to/perplexity-insight` with the actual path to your installation directory and use your actual Perplexity API key.
+
 ### Using Perplexity in Windsurf
 
 - Use the AI Assistant panel to ask questions that will be directed to Perplexity
